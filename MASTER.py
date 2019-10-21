@@ -1,9 +1,18 @@
+//master python referance
+
+//printing strings
 print('hello')
+
+//string variable
 a="string"
 print(a)
+//removes variable a
 del(a)
+
+//user I/O
 a=float(input("enter a number\n"))
 print(a)
+
 booleana= 6 == a
 print(booleana)
 if booleana == True:
