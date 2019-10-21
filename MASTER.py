@@ -1,15 +1,15 @@
-//master python referance
+#master python referance
 
-//printing strings
+#printing strings
 print('hello')
 
-//string variable
+#string variable
 a="string"
 print(a)
-//removes variable a
+#removes variable a
 del(a)
 
-//user I/O
+#user I/O
 a=float(input("enter a number\n"))
 print(a)
 
