@@ -31,8 +31,17 @@ while i <= 5:
 
 
 g = 0
-#list/array delectration
+#list delectration
 lista = ["item 1", "item 2"]
-while g <= 1:
+#append a list
+lista.append("item 4")
+lista.insert(2, "item 3")
+#while length of a list
+while g <= len(lista)-1:
     print(lista[g])
     g += 1
+
+#searching the list and printing that index
+in1 = input("what whould you like to search for?\n")
+print (lista.index(in1))
+print (lista[lista.index(in1)])
